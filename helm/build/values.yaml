@@ -1,0 +1,15 @@
+app:
+  name: jx4-poi-map-app
+  namespace: jx4
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/jx4-frontend
+  org: rhdh-atl
+  name: jx4-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jx4/poi-map-app
+  tag: latest
